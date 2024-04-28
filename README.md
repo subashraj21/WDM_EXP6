@@ -13,9 +13,7 @@ sklearn to demonstrate Information Retrieval using the Vector Space Model.
 3. Construct a TF-IDF matrix using TfidfVectorizer from sklearn.
 4. Define a search function that calculates cosine similarity between a query and documents based on the TF-IDF matrix.
 5. Execute a sample query and display the search results along with similarity scores.
-
 ### Program:
-
 ```
 import nltk
 nltk.download('punkt')
